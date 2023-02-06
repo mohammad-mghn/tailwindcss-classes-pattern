@@ -1,9 +1,6 @@
-Using patterns 📊 in your codes is always a pretty great thing👍, because your code looks much better 👀, in the future you won't confuse 🧠, and other developers 🧑‍💻 that contribute to your project will understand it better especially in open source projects 📖.
+Using patterns 📊 in your codes is always a pretty great thing👍 because your code looks much better 👀, in the future, you won't be confuse 🧠, and other developers 🧑‍💻 that contribute to your project will understand it better, especially in open source projects 📖.
 
-Some patterns are confusing 🧠, and hard to remember 😡, since one of the goals of the tailwindCSS is not to be complicated 🦾, I try a lot to make as much as easy, and easy to customize 🖌️.
-
-
-> I also made a [GitHub repository](https://github.com/vito-mohagheghian/tailwindcss-classes-pattern/tree/main) for you guys be able to contribute, and make it better. 😉 
+Some patterns are confusing 🧠, and hard to remember 😡 since one of the goals of the tailwindCSS is not to be complicated 🦾, I try a lot to make as much as easy, and easy to customize 🖌️.
 
 
 # Basics
@@ -12,13 +9,13 @@ Let's take a look at it.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9vpdteiosxn4tkbvt338.png)
 
-You may say what is special with this piece of code 🤔💭, the answer is that during coding we have no pattern and methodology we just type class names that we thinking of, and this will make our code dirty 💩.
+You may say what is special about this piece of code 🤔💭, the answer is that during coding we have no pattern and methodology we just type class names that we thinking of, and this will make our code dirty 💩.
 
 # Logic 
-the logic behind orders and pattern is we go from outside to inside 📥. It means first we define positions, after that margin, padding, outline, border, and then we define element inner styles like display, align-items, background-color, text-color, font properties, etc. 🚌 Next we define class names like transitions, animations, and external CSS classes.
+the logic behind orders and patterns is we go from outside to inside 📥. It means first we define positions, after that margin, padding, outline, and border, and then we define element inner styles like display, align-items, background-color, text-color, font properties, etc. 🚌 Next we define class names like transitions, animations, and external CSS classes.
 
 # Responsive 
-Some developers prefer to use media queries at the end of string which is not perfect 🔔, because it's easier to have all media queries of one element in one look 👁️. like below.
+Some developers prefer to use media queries at the end of the string which is not perfect 🔔 because it's easier to have all media queries of one element in one look 👁️. like below.
 
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i56zbt6q8rxao62vvn52.png)
@@ -26,12 +23,12 @@ Some developers prefer to use media queries at the end of string which is not pe
 ------
 
 # Orders 
-The most important thing in this pattern is orders but how do we categorize them in groups, and what are the categories. 👆
+The most important thing in this pattern is orders but how do we categorize them in groups, and what are the categories? 👆
 
 -----
 
 ## 1. position, inset, top, bottom... 
-Including position, and inset, top, left, bottom, and right.
+Including position, inset, top, left, bottom, and right.
 
 1️⃣ position => absolute, relative, static... 
 
@@ -75,7 +72,8 @@ the Order of the directions are clockwise 🔃, like: mt-0 => mr-0 => mb-0 => ml
 
 -----
 
-## 3. Height, width, min and max width, and min and max height
+## 3. Height, width, min and max-width, and min and max-height
+
 
 1️⃣ width => w-10
 
@@ -99,7 +97,7 @@ the Order of the directions are clockwise 🔃, like: mt-0 => mr-0 => mb-0 => ml
 -----
 
 ## 4. Display (grid or flexbox items in addition)
-The order in this category does not really matter 🫠, because it's may be different. 🛫
+The order in this category does not matter 🫠, because it may be different. 🛫
 
 ```jsx
 <div className="flex items-center justify-content flex-col">
@@ -127,7 +125,7 @@ The order in this category does not really matter 🫠, because it's may be diff
 ------
 
 ## 6. Text, and font
-First we define text color, then text font-size, and last but not least font-weight.
+First, we define text color, then text font-size, and last but not least font-weight.
 
 1️⃣ color => text-red-600, text-white...
 
@@ -144,7 +142,7 @@ First we define text color, then text font-size, and last but not least font-wei
 </div>
 ```
 
-these most common classes, so for more class you can add it at the end of category. 
+these most common classes, so for more classes you can add them at the end of the category. 
 
 -------
 
@@ -164,7 +162,7 @@ these most common classes, so for more class you can add it at the end of catego
 -----
 
 ## 8. Filters 
-Due to the large number of cases, it's not really great.
+Due to a large number of cases, it's not great.
 
 ```jsx
 <div className="backdrop-blur-lg">
@@ -175,11 +173,10 @@ Due to the large number of cases, it's not really great.
 ------
 
 # Conclusion
-I developing a react project with this method, and after finishing it I will share link here. So be sure to save it 😉😈.
+I developing a react project with this method, and after finishing it I will share the link here. So be sure to save it 😉😈.
 
 [back to top](#basics)
 
 [keep in touch](https://vito.vercel.app) 
 
 Keep Coding Y'All 👨🏻‍💻
-
