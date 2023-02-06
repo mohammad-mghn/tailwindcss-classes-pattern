@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/77550037/217070569-1a82865b-6bd0-4a60-8cae-8113df7aa6aa.png)
+
 Using patterns 📊 in your codes is always a pretty great thing👍 because your code looks much better 👀, in the future, you won't be confuse 🧠, and other developers 🧑‍💻 that contribute to your project will understand it better, especially in open source projects 📖.
 
 Some patterns are confusing 🧠, and hard to remember 😡 since one of the goals of the tailwindCSS is not to be complicated 🦾, I try a lot to make as much as easy, and easy to customize 🖌️.
